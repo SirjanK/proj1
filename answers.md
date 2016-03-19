@@ -1,6 +1,9 @@
 # Q0: Why is this error being thrown?
+I don't have any Controller specified.
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
+The random pokemon are appearing from the seeds.rb file. We are assigning specific names like Charmander and Squirtle.
+Also we have a random level from 1 to 20.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
 
